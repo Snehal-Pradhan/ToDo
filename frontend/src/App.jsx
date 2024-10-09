@@ -1,12 +1,13 @@
 import { useState } from 'react'
+import TopBar from './components/TopBar'
+import CustomButton from './components/CustomButton'
 
 function App() {
 
   return (
     <>
-     <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <TopBar/>
+    <CustomButton/>
     </>
   )
 }
